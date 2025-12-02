@@ -129,7 +129,7 @@ def median_metrics():
 median_metrics()
 
 def visualize_train():
-    df_train = load_train()
+    df_train = obrabotka_train()
 
     fig = px.histogram(
         df_train,
