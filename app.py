@@ -14,7 +14,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-MODEL_DIR = Path(__file__).resolve().parent.parent / "models"
+MODEL_DIR = Path(__file__).resolve().parent / "models"
 MEDIAN_PATH = MODEL_DIR / "medians.pkl"
 SCALER_PATH = MODEL_DIR / "scaler.pkl"
 MODEL_PATH = MODEL_DIR / "churn_model.pkl"
